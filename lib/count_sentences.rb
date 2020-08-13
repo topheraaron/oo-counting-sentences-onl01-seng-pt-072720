@@ -2,9 +2,9 @@ require 'pry'
 
 class String
 
-  def sentence?(sentance)
-    @sentence = sentence
-    self.sentance
+  def sentence?(sentance?)
+    @sentence = sentence?
+    self.sentance?
   end
 
   def question?
